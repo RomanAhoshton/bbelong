@@ -1,0 +1,39 @@
+<mjml>
+  <mj-body
+    background-color="#f2fcff"
+    font-family="'Noto Sans HK', sans-serif"
+    color="#12373e"
+  >
+    <mj-section>
+      <mj-column>
+        <mj-image
+          src="https://community-connect-app.s3.us-east-1.amazonaws.com/email_sending/logo.svg"
+          alt="logo"
+          width="50px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column
+        background-color="#ffffff"
+        border-radius="8px"
+        padding="24px"
+        text-align="center"
+      >
+        <mj-text font-size="16px" color="#12373e">Hello Roman,</mj-text>
+        <mj-text font-size="14px" color="#6a787a"
+          >We're reaching out with an update on recent transactions in your
+          wallet:</mj-text
+        >
+        <mj-text font-size="24px" font-weight="700" color="#0093ae"
+          >Transfer to another user:
+          <span style="color: #4a53ff">USD 1000$</span></mj-text
+        >
+        <mj-text font-size="14px" color="#12373e"
+          >Your wallet has been successfully credited.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

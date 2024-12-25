@@ -1,0 +1,53 @@
+<mjml>
+  <mj-body
+    background-color="#f2fcff"
+    font-family="'Noto Sans HK', sans-serif"
+    color="#12373e"
+  >
+    <mj-section>
+      <mj-column>
+        <mj-image
+          src="https://community-connect-app.s3.us-east-1.amazonaws.com/email_sending/logo.svg"
+          alt="logo"
+          width="50px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column
+        background-color="#ffffff"
+        border-radius="8px"
+        padding="24px"
+        text-align="center"
+      >
+        <mj-text font-size="16px" color="#12373e"
+          >Repair Request Confirmation</mj-text
+        >
+        <mj-text font-size="14px" color="#6a787a"> Hello Roman, </mj-text>
+        <mj-text font-size="14px" color="#6a787a">
+          We're pleased to confirm that your repair request has been accepted
+          and scheduled. Please find the details below:
+        </mj-text>
+        <mj-text font-size="14px" color="#12373e">
+          Scheduled Date and Time: [Date, Time]
+        </mj-text>
+        <mj-text font-size="14px" color="#12373e">
+          Technician Assigned: [Technician's Full Name]
+        </mj-text>
+        <mj-text font-size="14px" color="#12373e">
+          Contact Information: [Phone Number or Email]
+        </mj-text>
+        <mj-text font-size="14px" color="#6a787a">
+          Our technician will arrive at the scheduled time to assist you with
+          your repair. If you need to reschedule or have any questions, don't
+          hesitate to reach out.
+        </mj-text>
+        <mj-text font-size="14px" color="#12373e">
+          Best regards,<br />
+          Bbelong Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

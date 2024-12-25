@@ -1,0 +1,52 @@
+<mjml>
+  <mj-body
+    background-color="#f2fcff"
+    font-family="'Noto Sans HK', sans-serif"
+    color="#12373e"
+  >
+    <mj-section>
+      <mj-column>
+        <mj-image
+          src="https://community-connect-app.s3.us-east-1.amazonaws.com/email_sending/logo.svg"
+          alt="logo"
+          width="50px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column
+        background-color="#ffffff"
+        border-radius="8px"
+        padding="24px"
+        text-align="center"
+      >
+        <mj-image
+          src="https://community-connect-app.s3.us-east-1.amazonaws.com/email_sending/invited.svg"
+          alt="Invitation"
+        />
+        <mj-text font-size="16px" font-weight="700" color="#12373e"
+          >You're Invited to Join Bbelong</mj-text
+        >
+        <mj-text font-size="16px" color="#12373e">Hello Roman,</mj-text>
+        <mj-text font-size="14px" color="#6a787a"
+          >We're excited to invite you to join Bbelong – a place where you can
+          easily manage your properties, connect with other users, and access
+          exclusive features.</mj-text
+        >
+        <mj-button
+          background-color="#80c9d7"
+          color="#ffffff"
+          border-radius="10px"
+          font-size="14px"
+          href="#"
+          >Sign Up</mj-button
+        >
+        <mj-text font-size="14px" color="#12373e"
+          >If you have any questions, our support team is here to help. Looking
+          forward to having you with us!</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

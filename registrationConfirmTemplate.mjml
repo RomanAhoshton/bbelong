@@ -1,0 +1,45 @@
+<mjml>
+  <mj-body
+    background-color="#f2fcff"
+    font-family="'Noto Sans HK', sans-serif"
+    color="#12373e"
+  >
+    <mj-section>
+      <mj-column>
+        <mj-image
+          src="https://community-connect-app.s3.us-east-1.amazonaws.com/email_sending/logo.svg"
+          alt="logo"
+          width="50px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column
+        background-color="#ffffff"
+        border-radius="8px"
+        padding="24px"
+        text-align="center"
+      >
+        <mj-text font-size="16px" color="#12373e"
+          >Welcome to
+          <a href="#" style="color: #4a53ff">Bebelong.com</a>,</mj-text
+        >
+        <mj-image
+          src="https://community-connect-app.s3.us-east-1.amazonaws.com/email_sending/welcome.svg"
+          alt="Welcome"
+        />
+        <mj-text font-size="24px" font-weight="700" color="#0093ae"
+          >1254</mj-text
+        >
+        <mj-text font-size="14px" color="#6a787a"
+          >4-digit code To Verify Your Email Address</mj-text
+        >
+        <mj-text font-size="14px" color="#12373e"
+          >Please write this code on the registration page to confirm your email
+          address and activate your account.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
